@@ -1,6 +1,4 @@
-import { PDF417 as PDF417JS } from './PDF417';
-
-const PDF417 = PDF417JS as {
+const PDF417 = require('./PDF417').PDF417 as {
     readonly ROWHEIGHT: 4;
     readonly QUIETH: 2;
     readonly QUIETV: 2;
@@ -16,5 +14,4 @@ const PDF417 = PDF417JS as {
     };
 };
 
-export { PDF417 };
-
+module.exports = { PDF417 };
