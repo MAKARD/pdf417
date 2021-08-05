@@ -1,4 +1,4 @@
-import { PDF417 as PDF417JS } from './PDF417';
+const PDF417JS = require('./PDF417').PDF417;
 
 export const PDF417 = PDF417JS as {
     readonly ROWHEIGHT: 4;
