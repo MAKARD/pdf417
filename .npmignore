@@ -7,6 +7,5 @@
 .idea
 npm-debug.log
 node_modules
-src/
 .vscode/
 package-lock.json
